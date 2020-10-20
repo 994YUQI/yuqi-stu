@@ -1,0 +1,74 @@
+html {
+    overflow: hidden;
+}
+
+.home {
+    position: relative;
+}
+
+.home .tu {
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    width: 50% !important;
+    height: 100% !important;
+    opacity: .7;
+    background: url("./../../../../bag.png") no-repeat;
+    background-size: 50%;
+    z-index: 3;
+}
+
+.home .right {
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 10px;
+    width: 400px;
+    height: 485px;
+    position: absolute;
+    top: 14%;
+    left: 63%;
+    z-index: 2;
+}
+
+.home h1 {
+    /* font: 28px/72px ""; */
+    color: #fff;
+    margin: 100px 0 50px 0;
+    text-align: center;
+}
+
+.home .el-form {
+    width: 400px;
+}
+
+
+/* label样式 */
+
+.home .el-form-item__label {
+    color: #fff;
+}
+
+
+/* 输入框样式 */
+
+.home .el-input__inner {
+    width: 83% !important;
+    border: 1px solid #fff;
+    background: none;
+}
+
+
+/* 提交按钮 */
+
+.home .el-button {
+    width: 83% !important;
+    background-image: linear-gradient(90deg, #1596fb, #002dff);
+}
+
+
+/* 视频 */
+
+.home .video {
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 0;
+}

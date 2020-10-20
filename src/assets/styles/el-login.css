@@ -1,0 +1,57 @@
+/* 导航栏样式 */
+
+.login .logo {
+    background: url('./../../../../logo.png') no-repeat;
+    width: 200px;
+    height: 60px;
+    background-size: 80%;
+}
+
+.login .el-aside {
+    background-color: #0099cc;
+    position: relative;
+}
+
+.login .dh {
+    position: absolute;
+    top: 8%
+}
+
+
+/* 头部栏 */
+
+.login .el-header {
+    background-image: linear-gradient(90deg, #33ccff, #0099cc);
+    position: relative;
+}
+
+
+/* 按钮 */
+
+.login .el-radio-button__inner {
+    background: none;
+    border: none;
+}
+
+.login .el-radio-button:first-child .el-radio-button__inner {
+    border: none;
+}
+
+.login .el-avatar {
+    position: absolute;
+    top: 15%;
+    left: 80%;
+}
+
+.login .gl {
+    position: absolute;
+    color: #fff;
+    top: 0%;
+    left: 90%;
+}
+
+.login .tuo {
+    position: absolute;
+    top: 0%;
+    left: 95%;
+}
